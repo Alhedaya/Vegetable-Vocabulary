@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vegetable Shopping Vocabulary Lesson Test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+<style>
+body{ background: linear-gradient(45deg, white, #D1E4C4, white); 
+height:1900vh; }
+
+
+.tooltips2{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:normal;
+ cursor:pointer;
+ 
+}
+.tooltips2 .tooltipstext2{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:20px;
+ width:200px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:30px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips2:hover .tooltipstext2{  visibility: visible;}
+.p{text-align: center; font-size: 33px;}
+.p1 {font-size: 30px;}
+
+
+
+
+
+
+.tooltips1{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:normal;
+ cursor:pointer;
+ 
+}
+.tooltips1 .tooltipstext1{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:20px;
+ width:800px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:30px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips1:hover .tooltipstext1{  visibility: visible;}
+.p{text-align: center; font-size: 33px;}
+.p1 {font-size: 30px;}
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:50px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:35px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: visible;}
+.p{text-align: center; font-size: 33px;}
+.p1 {font-size: 30px; background-color: #F1F7ED;}
+.p2 {font-size: 30px;  text-align:center; font-family: new roman text; border-radius: 5px; padding-top: 20px; cursor:pointer;}
+
+.div1 {display: grid; grid-template-columns: 1100px; justify-content: center; margin-top: 20px; cursor:pointer;}
+.div2 {display: grid; grid-template-columns: 1fr 1fr;}
+.div3  {display: grid; grid-template-columns:1fr 1fr 1fr;}
+.div4 {text-align: left; font-size: 30px; padding-left: 45px;}
+.div5 {display: grid; grid-template-columns: 900px; justify-content: center;}
+.div6 {display: grid; grid-template-columns: 1fr;}
+.div7 {text-align: center; font-size: 40px;}
+.div8 {display: grid; grid-template-columns: 1fr 1fr 1fr;}
+
+.img1{width: 200px; border-radius:5px;}
+.img2{width: 500px; border-radius:5px;}
+
+
+.convo{text-align:left; box-shadow: 1px 0 3px grey; border-radius: 3px; padding:10px; margin-bottom:5px;}
+
+
+
+@media screen and (max-width: 1000px){
+
+.img1{width: 100%; border-radius:5px;}
+.img2{width: 100%; border-radius:5px;}
+
+
+.p{text-align: center; font-size: 25px;}
+.p1 {font-size: 25px; }
+.p2 {font-size: 25px;  text-align:center; font-family: new roman text; width:100%}
+
+.div1 {display: grid; grid-template-columns: 1fr;}
+.div2 {display: grid; grid-template-columns:1fr;}
+.div3  {display: grid; grid-template-columns:  1fr;}
+.div4 {text-align: left; font-size: 23px;}
+.div5 {display: grid; grid-template-columns: 1fr;}
+.div6 {display: grid; grid-template-columns: 1fr;}
+.div7 {text-align: center; font-size: 30px;}
+.div8 {display: grid; grid-template-columns: 1fr ;}
+.wrapper { overflow-x: hidden; width: 100%; background: linear-gradient(45deg, white, #F1F7ED, white); }
+
+.tooltips{
+ position:relative;
+ display:block;
+ text-align:center;
+ font-size:30px;
+ font-weight:bold;
+ cursor:pointer;
+ 
+}
+.tooltips .tooltipstext{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:100px;
+ width:1100px;
+ top:125%;
+ background: #F1F7ED;
+ font-size:40px;
+ font-weight:normal;
+ padding: 5px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ 
+}
+.tooltips:hover .tooltipstext{  visibility: hidden;}
+
+
+.tooltips1{
+ position:relative;
+ display:block;
+ text-align:left;
+ font-size:25px;}
+.tooltips1 .tooltipstext1{
+ visibility:hidden;
+ position:absolute;
+ z-index:1;
+ left:-10px;
+ width:100%;
+ top:125%;
+ background: #F1F7ED;
+ font-size:25px;
+ font-weight:normal;
+ padding: 10px;
+ border-radius: 6px;
+ box-shadow: 5px 0px 7px black;
+ text-align: left;
+ 
+}
+.tooltips1:hover .tooltipstext1{  visibility: visible;}
+
+}
+
+<div class="tooltips1"><span class="tooltipstext1"></span></div> 
+
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+<h1 class="tooltips">Vegetable Vocabulary <span class="tooltipstext"><b>Introductions:</b><br>
+Hello! How's everyone doing today?<br>
+<b>T:</b> My Name is Fatima. What is your name?<br>
+<b>S:</b> ____. <b>T:</b> That's beautiful! Welcome.<br>
+<b>T:</b> I live in Kenya, where do you live?<br>
+<b>S:</b> I live in ____. <b>T:</b> Great! nice to meet you.<br>
+<b>T:</b> We will wait for others to join.. maybe a minute!<br>
+While we wait, if you'd like to take a look at these instructions.<br>
+I'll review them before we start!<br>
+Ok, we will begin, if more people join us they can just catch up when they are ready. </span></h1> 
+
+
+
+<div class="div1" style=" ">
+
+<div class="p1" style="text-align: left;   padding: 10px; border-radius: 6px; box-shadow: 1px 1px 1px grey;">
+
+<h1 class="tooltips1"><b>O</b>bjective:
+ <span class="tooltipstext1"> To introduce and practice key vocabulary related to shopping for vegetables, enabling learners to confidently navigate a market or grocery store and communicate effectively.
+</span></h1>
+
+<b>T:</b> Today we will have an English lesson. You see some instructions here and these are some things that you'll hear me say.<br><br>
+<b>T:</b> I will ask you to<br>
+&#10162;  Type in &#9702; Click on  &#9702; Listen  &#9702; Read  &#9702; Look  &#9702; Discuss in pairs <br><br>
+<b>T:</b> These are for you<br>
+&#10162;  I understand &#9702; I don't understand  &#9702; Can you repeat, please? <hr><br>
+Let's begin! So,  we are going to talk about the theme of <b>Vegetables.</b><br>
+Do any of you like vegetables? __ great!<br>
+Alright, so let's talk about vegetables.<br><br>
+We're going to...<br>
+Review and practice <b>V</b>egetables <b>V</b>ocabulary.<br>
+Learn and practice <b>Q</b>uestions and <b>A</b>nswers.<br>
+Have a <b>C</b>onversation about Vegetables shopping.<hr><br>
+
+
+
+<div style="text-align: center; font-weight: bold;"> Vegetables - Vocabulary Review</div><br><br>
+
+<div>
+
+<div class="convo"><b>Vegetables</b> - Edible plants or parts of plants, <div class="tooltips2" style="display:inline-block;">used as food. <span class="tooltipstext2"> <img src="vegetables1.jpg" class="img1">
+</span></div> </div><br><br>
+
+<div class="convo"><b>Produce</b> - Fresh fruits and  <div class="tooltips2" style="display:inline-block;">vegetables.<span class="tooltipstext2"> <img src="produce.jpg" class="img1">
+</span></div>  </div><br><br>
+
+<div class="convo"><b>Market</b> - A place where people buy and sell goods, often fresh   <div class="tooltips2" style="display:inline-block;">food.<span class="tooltipstext2"> <img src="market.jpg" class="img1">
+</span></div>  </div><br><br>
+
+<div class="convo"><b>Grocery Store</b> - A store that sells food and other items needed for the   <div class="tooltips2" style="display:inline-block;">home.<span class="tooltipstext2"> <img src="grocerystore.jpg" class="img1">
+</span></div> </div><br><br>
+
+<div class="convo"><b>Fresh</b> - Recently picked or prepared; not stale or   <div class="tooltips2" style="display:inline-block;">spoiled.<span class="tooltipstext2"> <img src="fresh.jpg" class="img1">
+</span></div> </div><br><br>
+
+<div class="convo"><b>Ripe</b> - Fully grown and ready to   <div class="tooltips2" style="display:inline-block;">eat.<span class="tooltipstext2"> <img src="ripe.jpg" class="img1">
+</span></div> </div><br><br>
+
+<div class="convo"><b>Spoiled</b> - Food that is no longer good to eat;  <div class="tooltips2" style="display:inline-block;">rotten. <span class="tooltipstext2"> <img src="spoiled.jpg" class="img1">
+</span></div>   
+</div><br><br>
+
+<div class="convo"><b>Bunch</b> - A group of the same items tied or held together &#10162;  <div class="tooltips2" style="display:inline-block;">a bunch of carrots.<span class="tooltipstext2"> <img src="carrotbunch.jpg" class="img1">
+</span></div> </div><br><br>
+
+<div class="convo"><b>Bundle</b> - Similar to a bunch, often used for leafy vegetables  &#10162;  <div class="tooltips2" style="display:inline-block;">a bundle of spinach.<span class="tooltipstext2"> <img src="spinachbundle.jpg" class="img1">
+</span></div> </div><br><br>
+
+<div class="convo"><b>Loose</b> - Not packaged or tied together; individual items  &#10162;  loose   <div class="tooltips2" style="display:inline-block;">potatoes. <span class="tooltipstext2"> <img src="loose.jpg" class="img1">
+</span></div>   </div><br><br>
+
+<div class="convo"><b>Price</b> per pound/kilogram - The cost of produce measured by weight.</div><br><br>
+<div class="convo"><b>Sale</b> - A special promotion where items are sold at a reduced price.</div><br><br>
+<div class="convo"><b>Discount</b> - A reduction in the usual price.</div><br><br>
+<div class="convo"><b>Seasonal</b> - Vegetables that are available during certain times of the year.</div><br><br>
+<div class="convo"><b>Kilogram</b> - A metric unit of weight  &#10162; equivalent to about 2.2 pounds.</div><br><br>
+<div class="convo"><b>Pound</b> - A unit of weight used to measure produce  &#10162; equivalent to about 0.45 kilograms.</div><br><br>
+<div class="convo"><b>Organic</b> - Produced without the use of chemical fertilizers, pesticides, or other artificial agents.</div>
+</div><hr><br>
+
+<b>I</b>nstructions: List the words related to Vegetables that you remember.<br><br>
+
+Here we have a picture of vegetables.<br><br>
+
+Where do you think they are?<br>
+Are they sold in the market or subway station?<br><br>
+So to get us started here, let us try to think of other <b>V</b>ocabulary <b>W</b>ords related to vegetables. . .<br>
+What are some of the words you remember or you already know that you can use when shopping for vegetables. <br>
+Feel free to unmute and just let me know which words<br><br>
+<div class="div2">
+<div><img class="img2" src="vegetables.jpg"></div>
+<div style="text-align:center;padding-top:20px;"><textarea class="p2">Market </textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<hr> What is at the market?<br>
+<textarea class="p2"></textarea>
+</div>
+</div><hr><br>
+
+
+
+
+<h1 class="tooltips1"><b>I</b>nstructions: Name each picture. <span class="tooltipstext1"> Now, here we'll have some more vocabulary words that we'll talk about and we can also use in the lesson.<br>
+Unmute and repeat after me.
+</span></h1>
+
+<div class="div2">
+
+<div>
+<img class="img1" src="carrot.jpg"><textarea class="p2">Carrot</textarea><br>
+<img class="img1" src="cabbage.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="bellpepper.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="onion.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="cauliflower.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="garlic.jpg"><textarea class="p2"></textarea><br>
+</div>
+
+<div style="text-align:left;">
+<textarea class="p2">Tomatoes</textarea><img class="img1" src="tomato.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="lettuce.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="pepper.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="potato.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="broccoli.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="pumpkin.jpg"><br>
+</div>
+</div><hr><br>
+
+
+
+<h1 class="tooltips1"><b>I</b>nstructions: Now, ask and answer questions about the pictures. </h1>
+
+<div class="div2">
+
+<div>
+Singular<br>
+<img class="img1" src="carrot.jpg"><textarea class="p2">What is this?                    It is a carrot.</textarea><br>
+<img class="img1" src="cabbage.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="bellpepper.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="onion.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="cauliflower.jpg"><textarea class="p2"></textarea><br>
+<img class="img1" src="garlic.jpg"><textarea class="p2"></textarea><br>
+</div>
+
+<div style="text-align:left;">
+<div style="text-align: right; padding-right:20px;"> Plural</div>
+<textarea class="p2">What are these?                      They are tomatoes.</textarea><img class="img1" src="tomato.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="lettuce.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="pepper.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="potato.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="broccoli.jpg"><br>
+<textarea class="p2"></textarea></textarea><img class="img1" src="pumpkin.jpg"><br>
+</div>
+</div><br><br>
+
+<div style="text-align: center; font-weight: bold;">Practice Questions and Answers </div>
+
+<h1 class="tooltips1" style=""><b>I</b>nstructions: Listen and Repeat<span class="tooltipstext1"> So here are some questions and answers to get us started.<br> Phrases for shopping:
+</span></h1>
+
+ <div class="div2">
+<div>
+<b>Questions and Answers</b>
+<div class="convo">How much does this cost?<br> 
+The carrots are $2 per kilogram.</div>
+
+<div class="convo">Do you have any organic vegetables? <br> 
+Yes, we have organic lettuce and spinach.</div>
+
+<div class="convo">Is this fresh? <br> 
+Yes, it was picked this morning.</div>
+
+<div class="convo">Can I have a bunch of carrots, please.<br>
+Sure, here you go.</div>
+
+<div class="convo">How much is this per kilo?<br>
+The potatoes are $1 per kilogram.</div>
+
+</div>
+<div style="padding-top:100px;">
+<textarea class="p2"></textarea>
+</div>
+
+<div style="padding-top:30px;">
+<b>Requests and Responses</b>
+<div class="convo">I would like to buy some tomatoes.<br> 
+How many would you like?</div>
+
+<div class="convo">Can you weigh this for me?<br> 
+Certainly, it weighs 2 pounds.</div>
+
+<div class="convo">Please give me half a kilo of spinach.<br> 
+Here you go, half a pound of spinach.</div>
+
+<div class="convo">I need a bundle of cilantro.<br>
+Here is a fresh bundle of cilantro.</div>
+
+<div class="convo">Could I get two kilos of potatoes?<br>
+Of course, here are two kilos of potatoes.</div>
+</div>
+<div style="padding-top:100px;">
+<textarea class="p2"></textarea>
+</div>
+
+<div style="padding-top:30px;">
+<b>Comments and Responses</b>
+<div class="convo">These cucumbers look very fresh.<br> 
+Thanks, we stock the freshest produce.</div>
+
+<div class="convo">This broccoli is on sale.<br> 
+Yes, it's 20% off today.</div>
+
+<div class="convo">The peppers are ripe and ready to eat.<br> 
+Great choice, they are perfectly ripe.</div>
+
+<div class="convo">The lettuce seems a bit wilted.<br>
+I apologize, let me get you a fresher one.</div>
+
+</div>
+<div style="padding-top:100px;">
+<textarea class="p2"></textarea>
+</div>
+ </div><hr><br>
+
+
+<h1 class="tooltips1"><b>I</b>nstructions: Complete the conversation using sentences A-D.<span class="tooltipstext1"> These are some short conversations and they're similar to the questions and the answers that we saw.
+</span></h1>
+
+ <div class="div2">
+<div>
+
+Here we have 4 short conversations<br>
+<div class="convo"><b>A.</b> <textarea class="p2"></textarea><br>
+<b>B.</b> Yes, a bunch of carrots is $2.50.</div>
+
+<div class="convo"><b>A.</b> <textarea class="p2"></textarea><br>
+<b>B.</b> Sorry, we only have conventional vegetables today.</div>
+
+<div class="convo"><b>A.</b> <textarea class="p2"></textarea><br>
+<b>B.</b> The onions are $1 per pound.</div>
+
+<div class="convo"><b>A.</b> <textarea class="p2"></textarea><br>
+<b>B.</b> These tomatoes are $2 per pound.</div>
+</div>
+
+<div style="padding-top: 150px; padding-left: 10px;">
+<div class="convo" style="text-align:center;">Questions & Sentences<br>
+ that belong in the blank</div><br>
+<div class="convo">A: Do you have any organic vegetables?</div><br>
+<div class="convo">B: Can I have a bunch of carrots, please?</div><br>
+<div class="convo">C: How much does this cost?</div><br>
+<div class="convo">D: How much is this per pound/kilogram?</div><br>
+</div>
+ </div><hr><br>
+
+
+
+
+<h1 class="tooltips1">Work in pairs. Read the questions and answers and subtitute the underlined words.<span class="tooltipstext1">Alright. So far, we've learned some <b>V</b>ocabulary <b>W</b>ords with travel and we've practiced <b>Q</b>uestions &#9702; <b>A</b>nswers related to travel. Now we can just get to talk, we can use those <b>V</b>ocabulary <b>W</b>ords,  use some of the <b>Q</b>uestions &#9702; <b>A</b>nswers, some of the <b>S</b>entences, that we have listened to and said. We'll be able to have a conversation. here are some examples.<br>
+<b>T:</b> will you ask ___ this question?
+</span></h1>
+
+ <div class="div2">
+<div>
+<div class="convo" style="background:#D1E4C4;"><b>1.</b> Hi, can you weigh these <u>potatoes</u> for me?</div>
+<div class="convo" style="">Of course. They weigh <u>3 pounds</u>.</div>
+
+<textarea class="p2">Group 1</textarea><br>
+<textarea class="p2">Group 2</textarea><br><br>
+
+<div class="convo" style="background:#D1E4C4;"><b>2.</b> Perfect. How much is that?</div>
+<div class="convo" style="">It’s <u>$1 per pound</u>, so $3 total.</div>
+<textarea class="p2">Group 1</textarea><br>
+<textarea class="p2">Group 2</textarea>
+ </div>
+<div>
+<div class="convo" style="background:#D1E4C4;"><b>3.</b>Excuse me, are these <u>peppers</u> fresh?<br><br> </div>
+<div class="convo" style="">Yes, they were delivered this morning.</div>
+<textarea class="p2">Group 1</textarea><br>
+<textarea class="p2">Group 2</textarea><br><br>
+
+<div class="convo" style="background:#D1E4C4;"><b>4.</b> Here’s the money. Thank you!</div>
+<div class="convo" style="">Thank you! Enjoy your <u>peppers</u>!</div>
+<textarea class="p2">Group 1</textarea><br>
+<textarea class="p2">Group 2</textarea>
+</div>
+ </div><hr><br>
+
+<h1 class="tooltips1">Shopping List Creation<span class="tooltipstext1"> 
+</span></h1>
+<div>
+<b>I</b>nstructions: Create a shopping list for a specific recipe or meal, ensuring to include quantities and specific types of vegetables.<br><br>
+Example:<br> <textarea class="p2">For a vegetable stir-fry, I need: 2 bell peppers, 1 bunch of broccoli, 1 pound of mushrooms, 3 carrots, and 2 onions.</textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+
+
+</div><hr><br>
+
+
+<h1 class="tooltips1">Feedback.<span class="tooltipstext1"> Today..<br>
+We reviewed & practiced travel vocabulary.<br>
+We had a conversation about the places we need to go to.<br>
+We learned & practiced questions & answers.
+</span></h1>
+
+ <div class="div3">
+ <div>
+<div class="convo" style="background:#D1E4C4; text-align:center;">Great Sentences</div>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea>
+ </div>
+
+ <div>
+<div class="convo" style="background:#D1E4C4; text-align:center;">Errors</div>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea>
+ </div>
+
+ <div>
+<div class="convo" style="background:#D1E4C4; text-align:center;">Corrections</div>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea><br>
+<textarea class="p2"></textarea>
+ </div>
+
+ </div><br>
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+</body>
+</html>
